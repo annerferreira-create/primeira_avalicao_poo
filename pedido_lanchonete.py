@@ -18,3 +18,14 @@ def calcular_subtotal(quantidade, preco_unitario):
     if cupom == "sim":
         return subtotal * 0.10
     return 0
+
+    def classificar_pedido(subtotal):
+    #Classifica o pedido pelo subtotal (antes do desconto) em "Pedido pequeno", "Pedido médio" ou "Pedido grande".
+    if subtotal <= 30:
+        return "Pedido pequeno"
+    elif subtotal <= 100:
+        return "Pedido médio"
+    else:
+        return "Pedido grande"
+
+        
