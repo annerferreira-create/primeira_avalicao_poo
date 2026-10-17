@@ -33,8 +33,6 @@ def classificar_pedido(subtotal):
     else:
         return "Pedido grande"
 
-
-# ---------------- Programa principal ----------------
 cupom_padronizado = cupom.lower()
 
 subtotal = calcular_subtotal(quantidade, preco_unitario)
