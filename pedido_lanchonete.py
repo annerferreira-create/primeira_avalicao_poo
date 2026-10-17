@@ -33,3 +33,4 @@ cupom_padronizado = cupom.lower()
 subtotal = calcular_subtotal(quantidade, preco_unitario)
 desconto = calcular_desconto(subtotal, cupom_padronizado)
 total = subtotal - desconto
+classificacao = classificar_pedido(subtotal)
