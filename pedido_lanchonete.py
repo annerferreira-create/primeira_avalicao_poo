@@ -4,8 +4,8 @@
 
 nome = "Felipe"
 produto = "Hambúrguer"
-quantidade = 3
-preco_unitario = 10.0
+quantidade = 4
+preco_unitario = 25.0
 cupom = "SIM"
 
 def calcular_subtotal(quantidade, preco_unitario):
