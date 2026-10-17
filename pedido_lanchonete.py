@@ -28,4 +28,4 @@ def calcular_subtotal(quantidade, preco_unitario):
     else:
         return "Pedido grande"
 
-        
+cupom_padronizado = cupom.lower()
