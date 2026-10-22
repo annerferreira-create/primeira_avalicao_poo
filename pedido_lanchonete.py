@@ -19,15 +19,15 @@ def calcular_desconto(subtotal, cupom):
     return 0
 
 def classificar_pedido(subtotal):
-    """Classifica o pedido em pequeno, médio ou grande com base no subtotal[cite: 2]."""
+    """Classifica o pedido em pequeno, médio ou grande com base no subtotal."""
     if subtotal <= 30:
-        return "Pedido pequeno"[cite: 2]
+        return "Pedido pequeno"
     elif subtotal <= 100:
-        return "Pedido médio"[cite: 2]
+        return "Pedido médio"
     else:
-        return "Pedido grande"[cite: 2]
+        return "Pedido grande"
 
-cupom_padronizado = cupom.lower()[cite: 2]
+cupom_padronizado = cupom.lower()
 
 subtotal = calcular_subtotal(quantidade, preco_unitario)
 desconto = calcular_desconto(subtotal, cupom_padronizado)
@@ -41,4 +41,4 @@ print("Preço unitário: R$", preco_unitario)
 print("Subtotal: R$", subtotal)
 print("Desconto: R$", desconto)
 print("Total: R$", total)
-print("Classificação:", classificacao)[cite: 2]
+print("Classificação:", classificacao)
